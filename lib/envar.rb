@@ -4,3 +4,4 @@ require 'dotenv'
 require "envar/version"
 require 'envar/config'
 require 'envar/accessor'
+require 'envar/railtie' if defined?(Rails)
