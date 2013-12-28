@@ -1,5 +1,6 @@
-require "envar/version"
+require 'active_support/core_ext/module/delegation'
+require 'dotenv'
 
-module Envar
-  # Your code goes here...
-end
+require "envar/version"
+require 'envar/config'
+require 'envar/accessor'
